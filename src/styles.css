@@ -262,10 +262,13 @@
  .hero-promises { margin-top: 19px; gap: 10px 15px; }
  .hero-promises span { font-size: 9px; }
  .hero-promises svg { width: 13px; }
- .portrait-composition { height: auto; aspect-ratio: 1.06; max-width: 350px; }
+ .portrait-composition { height: auto; aspect-ratio: 1.06; max-width: 280px; }
  .portrait-frame { width: 86%; }
  .portrait-backdrop { inset: 15px 16px 3px; }
- .portrait-caption { bottom: -2px; right: 9px; }
+ .portrait-caption { bottom: -2px; right: 4px; padding: 11px 14px; }
+ .portrait-caption strong { font-size: 12px; }
+ .portrait-caption small { font-size: 8px; }
+ .portrait-caption .caption-heart { width: 32px; height: 32px; }
  .portrait-tooth { width: 58px; height: 66px; top: 26px; left: 0; }
  .star-one { top: 5px; right: 10px; width: 31px; height: 31px; }
  .star-two { bottom: 48px; left: 9px; }

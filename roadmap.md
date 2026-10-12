@@ -1,4 +1,4 @@
 # Página Dra. Mônica
-- [ ] Criar identidade visual e página completa com fotografia original.
-- [ ] Implementar navegação, contatos, mapa e agendamento.
-- [ ] Verificar página, links e telas menores.
+- [x] Criar identidade visual e página completa com fotografia original.
+- [x] Implementar navegação, contatos, mapa e agendamento.
+- [x] Verificar página, links e telas menores.
