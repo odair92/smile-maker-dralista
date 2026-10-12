@@ -7,6 +7,8 @@ import portrait from '@/assets/dra-monica-cristina.jpeg.asset.json';
 
 const pageTitle = 'Dra. Mônica Cristina | Dentista Infantil e Periodontista em Diadema';
 const description = 'Odontologia infantil e periodontia em Diadema com a Dra. Mônica Cristina. Mais de 5 anos de experiência e um cuidado acolhedor para toda a família. Agende pelo WhatsApp.';
+// Use the current preview origin until a published URL or custom domain is available.
+const siteUrl = 'https://id-preview--c9e89fb5-aed4-40ec-9319-2591c064ce92.lovable.app/';
 export const Route = createFileRoute('/')({
   component: Index,
   head: () => ({
@@ -17,12 +19,12 @@ export const Route = createFileRoute('/')({
       { property: 'og:description', content: description },
       { property: 'og:type', content: 'website' },
       { property: 'og:locale', content: 'pt_BR' },
-      { property: 'og:url', content: '/' },
+      { property: 'og:url', content: siteUrl },
       { name: 'twitter:card', content: 'summary_large_image' },
     ],
-    links: [{ rel: 'canonical', href: '/' }],
+    links: [{ rel: 'canonical', href: siteUrl }],
     scripts: [{ type: 'application/ld+json', children: JSON.stringify({
-      '@context': 'https://schema.org', '@type': 'Dentist', name: clinic.name,
+      '@context': 'https://schema.org', '@type': 'Dentist', name: clinic.name, url: siteUrl,
       description, telephone: '+5511976931164', email: clinic.email,
       address: { '@type': 'PostalAddress', streetAddress: 'Av. São José, 111 - Centro', addressLocality: 'Diadema', addressRegion: 'SP', addressCountry: 'BR' },
     }) }],
