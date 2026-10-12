@@ -191,7 +191,9 @@
 .footer-contact p { margin: 0; }
 .footer-contact a { overflow-wrap: anywhere; }
 .footer-bottom { border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 20px; min-height: 67px; color: var(--muted-foreground); font-size: 10px; }
-.footer-bottom span:last-child { display: flex; align-items: center; gap: 5px; }
+.footer-bottom .footer-made { display: flex; align-items: center; gap: 5px; }
+.footer-credit a { color: var(--lavender-ink); font-weight: 700; }
+.footer-credit a:hover { text-decoration: underline; }
 .footer-bottom svg { width: 12px; color: var(--lavender-ink); }
 .floating-button { position: fixed; right: 25px; bottom: max(25px,env(safe-area-inset-bottom)); z-index: 45; width: 57px; height: 57px; border-radius: 50%; background: var(--primary); color: var(--primary-foreground); box-shadow: var(--shadow-float); transition: transform .2s; }
 .floating-button:hover { transform: scale(1.08); background: var(--heading); }
